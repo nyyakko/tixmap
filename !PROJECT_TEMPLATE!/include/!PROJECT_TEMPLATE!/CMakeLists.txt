@@ -1,0 +1,6 @@
+set(DIR ${CMAKE_CURRENT_SOURCE_DIR})
+
+set(!PROJECT_TEMPLATE!_HeaderFiles ${!PROJECT_TEMPLATE!_HeaderFiles}
+
+    PARENT_SCOPE
+)
